@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>actividad1.html</title>
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v11.0"
+        nonce="ae72Dxps"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>  
+    <header class="title">
+        <h1>Etiquetas Básicas de HTML, atributos y valores </h1>
+    </header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+                </ul>
+                <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+    
+        <!-- <header class="header">
+            <nav>
+                <li><a href="index.html">Inicio</a></li>
+                <li>Temas</li>
+                <ul><a href="tema1.html">Tema 1</a></ul>
+                <ul><a href="tema2.html">Tema 2</a></ul>
+                <li>Rescursos digitales</li>
+                <ul><a href="recurso1.html">Recurso 1</a></ul>
+                <ul><a href="recurso2.html">Recurso 2</a></ul>
+                <li>Aprendizaje</li>
+                <ul><a href="actividad1.html">Actividad 1</a></ul>
+                <ul><a href="actividad2.html">Actividad 2</a></ul>
+                <li><a href="acercade.html">Acerca de</a></li>
+
+
+            </nav>
+            <div class="clear fix"></div>
+        </header> -->    
+    <div class="contenedor">
+        <div class="row">
+            <aside class="col-4 ">
+                <h4>Fan page</h4>
+                <div class="fb-page" data-href="https://www.facebook.com/UniversidadUNAD/?ref=page_internal"
+                    data-tabs="timeline" data-width="" data-height="1050" data-small-header="true"
+                    data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/UniversidadUNAD/?ref=page_internal"
+                        class="fb-xfbml-parse-ignore"><a
+                            href="https://www.facebook.com/UniversidadUNAD/?ref=page_internal">Universidad Nacional Abierta
+                            y a Distancia - UNAD Colombia</a></blockquote>
+                </div>
+            </aside>
+            <section class="col-8">
+                <article>
+                    <h2>Proposito del sitio</h2>
+                    <p>El presente sitio Web tiene como finalidad principal, ampliar el conocimiento del publico en general,
+                        con temas estrechamente relacionados con el desarrollo de sitios Web.<br> Con la actual coyuntura
+                        mundial vivida por causa del COVID-19, el aprendizaje virtual ha tomado fuerza, y se hace imperioso
+                        una reforma en la manera de compartir el conocimiento a los alumnos de la actualidad. Esta crisis ha
+                        permitido la innovacion enmetodologias de aprendizaje que se han aplicado para tratar de suplir las
+                        necesidades que presenta la falta de educacion presencial. </p>
+                </article>
+                <article>
+                    <h2>Que es HTML</h2>
+                    <p>Tal vez para muchas personas el termino Html es muy familiar, esto debido a que la mayoria de paginas
+                        Web disponibles en internet estan realizadas con este lenguaje de programacion. <br>
+                    <div align="center"><img src="/Fase2/Imagenes/html.jpg"></div>
+                    <br>
+                    Sin embargo muchos se preguntaran ¿que es HTML?, segun Preston,P(2015) <em>"HTML son simples archivos de
+                        texto. El texto es la manera más corriente de introducir datos en un ordenador o un
+                        navegador."</em>. <br>
+                    HTML, es un lenguaje basado en etiquetas o instrucciones que hacen que el texto se pueda visualizar de
+                    diferentes maneras a travez de un navegador.
+                </p>
+            </article>
+            </section>
+        </div> 
+    </div>
+    <footer class="footer" align="center">
+        <h4> and96a@outlook.com - Skype: Anderson Gonzalez - 21 de junio de 2021</h4>
+    </footer>
+
+
+
+</body>
+
+</html>
